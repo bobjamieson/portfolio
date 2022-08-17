@@ -4,7 +4,6 @@ const MainNav = () => {
 
     const [burgerActive, setBurger] = useState(false);
 
-
     const burgerClick = () => {
         setBurger(!burgerActive)
     }

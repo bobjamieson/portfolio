@@ -1,4 +1,5 @@
 import WorkItem from './WorkItem'
+import './SectionWork.css';
 
 const SectionWork = () => {
     return (

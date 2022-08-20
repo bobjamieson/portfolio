@@ -1,3 +1,5 @@
+import './Footer.css';
+
 const Footer = () => {
     return (
         <div>
@@ -19,10 +21,8 @@ const Footer = () => {
                         <textarea type='text' placeholder='Message' required></textarea>
                         <button>Get in touch!</button>
                     </form>
+                    <p>Or email me at <a href="mailto:bamieson@gmail.com">bamieson@gmail.com</a></p>
                 </div>
-            </div>
-            <div className='Footer-bottom'>
-                <h4>Bob Jamieson 2022</h4>
             </div>
         </div>
     )

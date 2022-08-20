@@ -1,0 +1,115 @@
+
+.Footer-container {
+  background-color: white;
+  background-image: url(
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6' viewBox='2 0 4 4'%3E%3Cpath fill='%239293ac' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 10px;
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+  
+/*Column one*/
+.Footer-column-one {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-column-one img {
+  width: 20%;
+  align-self: center;
+  padding-top:50px;
+}
+  
+/*Column two*/
+.Footer-column-two {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+  
+.Footer-column-two p {
+  background-color: #ffffff99;
+  padding: 20px;
+  align-self: center;
+}
+
+/*Column three*/
+.Footer-column-three {
+  width: 100%;
+  padding-bottom: 50px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Footer-column-three form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 80%;
+}
+
+.Footer-column-three form * {
+  align-self: center;
+  width: 80%;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: #d5d4d4;
+  border-width: 1px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  resize: none;
+}
+
+.Footer-column-three form input:focus, message:focus {
+  border-color: red;
+}
+
+.Footer-column-three button {
+  color: rgb(96, 96, 96);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;  
+}
+
+.Footer-column-three button:hover{
+  background-color: red;
+  color: red;
+  }
+
+/*------------------Media Query----------------*/
+
+@media screen and (min-width:980px) {
+  .Footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Footer-column-one, .Footer-column-two {
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .Footer-column-two {
+    text-align: left;
+  }
+
+  .Footer-column-one img {
+    width: 150px;
+  }
+
+  .Footer-column-three {
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+}

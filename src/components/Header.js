@@ -3,8 +3,6 @@ import MainNav from './MainNav'
  
 const Header = () => {
 
-
-
     return (
         <div>
             <div className='Header-container'>
